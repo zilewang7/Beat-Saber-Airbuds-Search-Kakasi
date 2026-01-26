@@ -1,0 +1,15 @@
+# Build output
+/build/
+
+# External dependencies
+/extern/
+
+# Auto-generated files
+/include/assets.hpp
+mod.json
+qpm_defines.cmake
+qpm-restore.log
+
+# Log files
+*.log
+logcat.txt

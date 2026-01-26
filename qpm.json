@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/QuestPackageManager/QPM.Package/refs/heads/main/qpm.schema.json",
+  "version": "0.4.0",
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "Airbuds Search Kakasi",
+    "id": "airbuds-search-kakasi",
+    "version": "0.1.0",
+    "url": "https://github.com/yourname/Beat-Saber-Airbuds-Search-Kakasi",
+    "additionalData": {
+      "overrideSoName": "libairbuds-search-kakasi.so",
+      "cmake": true
+    }
+  },
+  "workspace": {
+    "qmodIncludeDirs": [
+      "./build",
+      "./extern/libs"
+    ],
+    "qmodIncludeFiles": [],
+    "qmodOutput": "./Airbuds Search Kakasi.qmod"
+  },
+  "dependencies": [
+    {
+      "id": "beatsaber-hook",
+      "versionRange": "^6.4.2",
+      "additionalData": {}
+    },
+    {
+      "id": "scotland2",
+      "versionRange": "^0.1.4",
+      "additionalData": {
+        "includeQmod": false
+      }
+    },
+    {
+      "id": "paper2_scotland2",
+      "versionRange": "^4.7.0",
+      "additionalData": {}
+    }
+  ]
+}

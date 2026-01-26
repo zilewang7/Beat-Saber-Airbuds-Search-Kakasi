@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Lauriethefish/QuestPatcher.QMod/refs/heads/main/QuestPatcher.QMod/Resources/qmod.schema.json",
+  "_QPVersion": "1.2.0",
+  "name": "${mod_name}",
+  "id": "${mod_id}",
+  "modloader": "Scotland2",
+  "author": "DDC",
+  "packageId": "com.beatgames.beatsaber",
+  "packageVersion": "1.40.8_7379",
+  "description": "Kakasi-based romaji adapter for Airbuds Search.",
+  "version": "${version}",
+  "dependencies": [],
+  "modFiles": [],
+  "lateModFiles": [
+    "libairbuds-search-kakasi.so"
+  ],
+  "libraryFiles": [],
+  "fileCopies": [
+    {
+      "name": "kanwadict",
+      "destination": "/sdcard/ModData/com.beatgames.beatsaber/Mods/airbuds-search-kakasi/kakasi/kanwadict"
+    },
+    {
+      "name": "itaijidict",
+      "destination": "/sdcard/ModData/com.beatgames.beatsaber/Mods/airbuds-search-kakasi/kakasi/itaijidict"
+    }
+  ],
+  "copyExtensions": [],
+  "coverImage": "cover.png"
+}
